@@ -1,0 +1,233 @@
+@media (max-width: 700px) {
+	.development{
+		/*
+		background-image: url('/public/header4.jpg');
+		background-position: center;
+		background-size: contain;
+		*/
+		height:max-content !important;
+	}
+
+	.dev-image{
+		display: none;
+	}
+
+	.dev-text{
+		width: auto !important;
+	}
+}
+
+
+.development-container{
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: auto;
+}
+
+/* hero */
+.herodev{
+	display: flex;
+	width: 100vw;
+	height: 50vh;
+	justify-content: center;
+	align-items: center;
+	background-image: url('/public/header1.webp');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* intro */
+.intro-image{
+	background-image:url('../images/services1.webp');
+	height: 60vh;
+	display: flex;
+}
+/* end intro */
+
+
+.column-rounded{
+	border-radius: 30%;
+	background-color:var(--yelow);
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	padding: 0 2vw;
+}
+
+.transparent-color{
+	background-color: var(--blackTransparent);
+	width: -webkit-fill-available;
+	color: var(--black-dg);
+}
+.section-columns-border{
+	display: flex;
+    gap: 1vw;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1vh 1vw 1vh 1vw;
+    flex-wrap: wrap;
+}
+.column-border{
+	border: 1px var(--yelowgreen), solid;
+	padding: 1vh 1vw;
+	flex-grow: 1;
+	flex-shrink: 1;
+	height: 40vh;
+	text-align: justify;
+	flex-basis: 23%;
+}
+
+.column-border h5{
+text-align: center;
+}
+
+.span-justify{
+	text-align: justify;
+}
+
+
+.section-red{
+	background-color: var(--red);
+	color: var(--gray);
+	padding: 5vh 2vw;
+}
+
+.section-socials{
+	background-image: url('../images/slider-redes.webp');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	width: 100%; 
+	flex-wrap: wrap;
+	padding: 2vh 2vw; 
+	gap: 2vw;
+	
+}
+
+.column-socials-networks{
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 20vw;
+	height:auto; 
+	background-color: var(--blackTransparent);
+	color: var(--white);
+	padding: 1vh 1vw;
+	display: flex;
+	flex-direction: column;
+	align-items:flex-start;
+	justify-content: start;
+	border-radius: 10%;
+}
+
+.social-networks-number{
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 1vh 0 ;
+}
+
+.social-networks-number p{
+	padding: 2vh 2vw; 
+	background-color: var(--yelow);
+	border-radius: 50%;
+	color: var(--black-dg);
+	font-size: 1.5rem;
+}
+
+.social-networks-text{
+	text-align: justify;
+}
+
+.process{
+	display: grid;
+	width: 100%;
+	background-image: url('../images/slider-redes.webp');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overlay:var(--yelow);
+}
+
+.transparent{
+	background-color: var(--blackTransparent);
+	padding: 15vh 5vw 0 0;
+	color: #000;
+	width: 50vw;
+}
+
+.dev-steps{
+	display: flex;
+	flex-direction: column;
+	margin: 3vh 2vw;
+	align-items: center;
+}
+
+.dev-number{
+	width: 100%;
+	height: 5vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 1vh;
+}
+
+.dev-number p{
+	background-color:var(--yelow); 
+	color: var(--black-dg);
+	font-size: 1.2rem;
+	border-radius: 30%;
+	padding: 1vh 1vw;
+	margin: 2vh;
+}
+
+.dev-step{
+	width: 85%;
+	color: var(--gray-light);
+	font-size: 1.2rem;
+	padding: 1vh 1vw;
+	text-align: justify;
+	border: 1px solid var(--gray);
+	border-radius: 10px;
+}
+
+.offert-image{
+	display: flex;
+	width: 100%;
+	background-image: url('../images/slide-1.webp');
+	height: 90vh;
+}
+
+.indispensable-web{
+	display: flex;
+	width: 100%;
+	background-image: url('../images/sem/sem1.webp');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 50vh;
+	
+}
+
+.process-image{
+	display: flex;
+	width: 100vw;
+	height: auto;
+	padding: 2vh 0;
+	/* background-image: url('../images/engine/engine-01.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; */
+	background-color: var(--black-dg);
+	margin: 0;
+}
+
+.yellow-important-text{
+	font-weight: 700;
+	color: var(--yelow);
+}
+

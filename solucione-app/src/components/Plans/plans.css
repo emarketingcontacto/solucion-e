@@ -1,0 +1,98 @@
+@media (max-width: 700px) {
+	.prices{
+		flex-wrap: wrap !important;
+	}
+}
+
+
+.plans-container{
+	display: grid;
+	width: 100vw;
+	height: auto;
+}
+
+.hero-plans{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 50vh;
+	background-image: url('../images/slide-1.webp');
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+
+.plans h4{
+	color:var(--black-dg); 
+	padding-top: 3vh;
+}
+
+.divider{
+	height: 80px;
+	height: 3px;
+	display: block;
+	margin: 0 0 19px;
+	overflow: hidden;
+}
+
+.prices{
+	width: 100vw;;
+	height: auto;
+	display: flex;
+	justify-content:space-between;
+	gap: 2vw; 
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+.price-item{
+	background-color: var(--gray-light);
+	display: flex;
+	width: 100%;
+	height: auto;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	gap: 5vh;
+	padding: 5vh 3vw;
+	margin: 2vh 0;
+}
+
+.price-item h3{
+	text-align: center;
+}
+
+.price-item ul{
+text-align: justify;
+}
+
+.plans-text{
+	display: flex;
+	width: 70vw;
+	color: var(--gray);
+	height: auto;
+	margin-bottom: 3vh;
+}
+
+.btn-quote{
+	background-color: var(--yelow);
+	text-align: center;
+	align-self: center;
+	margin-top: 3vh;
+}
+
+.btn-quote:hover{
+	background-color: var(--black-dg);
+	color:var(--yelow)
+}
+
+.money{
+	font-weight: bold;
+	font-size: 3rem;
+}
+
+.liSmall{
+	font-size: .75rem;
+	font-weight: 800;
+}

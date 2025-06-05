@@ -1,0 +1,22 @@
+.sticky-WhatsApp{
+  position: fixed;  
+  background-color:var(--yelow);
+  bottom: 5vh;
+  right: 0;
+  text-align: center;
+  border-radius: 20px 0;
+  padding: .5vh .3vw;
+}
+
+.sticky-WhatsApp svg{
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.sticky-WhatsApp a{
+  color: var(--black-dg);
+}
+
+.sticky-WhatsApp >p{
+  margin: 0;
+}

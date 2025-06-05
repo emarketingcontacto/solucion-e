@@ -1,0 +1,87 @@
+.seo-container{
+	display: grid;
+	width: 100vw;
+	height: auto;
+}
+
+.hero-seo{
+	background-image: url('/public/header3.webp');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 25vh 0;
+	width: 100vw;
+	
+}
+
+.seo-benefits{
+	background-image: url('../images/seo/google-rock-wall.webp');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 100px 0;
+	margin: 0;
+	background-attachment: fixed;
+	width: 100vw;
+}
+
+
+.hero-seo-one{
+	background-image: url('../images/seo/seo1.webp');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:60vh;
+	display: flex;
+}
+
+.hero-seo-two{
+	background-image: url('../images/seo/seo5.webp');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:40vw;
+	height:60vh;
+	display: flex;
+}
+
+.column-seo-three{
+	background-image: url('../images/seo/seo5.webp');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:40vw;
+	height:100vh;
+	display: flex;
+}
+.single-seo-four{
+	background-image: url('../images/seo/seo6.webp');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.2rem;
+	height: 75vh;
+	background-attachment: fixed;
+}
+
+.transparent-black{
+	background-color: var(--blackTransparent);
+	padding: 2vh 10vw;
+	color:var(--white);
+}
+
+.seo-four-text{
+	padding: 1vh 3vw;
+	text-align: justify;
+}
+
+.seo-four-text-center{
+	background-color: var(--yellowTransparent);
+	color: var(--black-dg);
+	padding: 2vh 1vw;
+	text-align: center;
+}

@@ -1,0 +1,23 @@
+.navbar-collapse{
+	flex-grow: 0;
+  }
+
+#navbarSupportedContent{
+	margin-right: 25vw;
+}
+
+.navbar-brand{
+	color: var(--yellow);
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+.navbar-brand :hover{
+	color: var(--yellow) !important;
+	font-weight: 700 !important;
+	font-size: 1.5rem !important;
+}
+
+.font-red{
+	color:#eb0b1e; 
+}

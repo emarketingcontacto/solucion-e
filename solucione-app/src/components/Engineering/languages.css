@@ -1,0 +1,19 @@
+.languages{
+	display: flex;
+	width: 100vw;
+	height: 25vh;
+	background-color: var(--gray-light);
+	color:var(--white);
+	justify-content: space-around;
+	align-items: center;
+}
+
+.container-languages{
+	color: var(--gray-text);
+}
+
+.container-languages h2{
+	font-stretch: 100%;
+	text-align: center;
+	font-size: 2.3rem;
+}

@@ -1,0 +1,54 @@
+.engineering-container{
+	display: grid;
+	width: 100vw;
+}
+
+.hero-engine{
+	display: flex;
+	width: 100vw;
+	height: 50vh;
+	align-items: center;
+	justify-content: center;
+	background-image: url('/public/header4.webp');
+}
+
+.engine-trans-column{
+	display: flex;
+	background-image: url('../images/engine/engine-01.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 110vh;
+}
+
+.engine-process{
+	width: 100vw;
+	height: auto;
+	background-color: var(--black-dg);
+}
+
+.engine-order-list{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100vw;
+	justify-content: space-between;
+	gap: 2vw;
+}
+
+.engine-order-list-column{
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis:20vw; 
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	flex-direction: column;
+	padding: 1vh 1vw;
+	color: var(--yelow);
+	border-bottom: 1px solid var(--yelowgreen);
+}
+
+.engine-order-list-column p{
+	text-align: justify;
+	color: var(--gray);
+}

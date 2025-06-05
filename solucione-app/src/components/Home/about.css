@@ -1,0 +1,19 @@
+.about{
+	display: grid;
+	height: auto;
+	width: 100vw;
+}
+
+
+.about-grid{
+	flex-grow: 0;
+	flex-shrink: 1;
+	padding: 2vh 4vw;
+	margin-bottom: 3vh;
+	color: var(--gray-text);
+	font-size: 1.2rem;
+}
+
+.about-grid>p{
+	text-align: center;
+}

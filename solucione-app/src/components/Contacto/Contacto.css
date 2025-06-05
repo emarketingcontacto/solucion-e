@@ -1,0 +1,70 @@
+.testing-hero{
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+	background-image: url('/public/header3.webp');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.testing h3{
+	color: var(--yellow);
+	font-size: 3rem;
+}
+
+.testing-text{
+	font-size: 1.2rem;
+	color: var(--white);
+}
+
+
+.btn-yellow{
+	background-color: var(--yelow);
+	margin-top: 1vh;
+	padding-top: 1vh;
+	color: #191b1f;
+	border: 1px var(--yellow) solid;
+}
+
+.btn-yellow:hover{
+	background-color:var(--black-dg);
+	color: var(--yelow);
+	margin-top: 1vh;
+	padding-top: 1vh;
+	border: 1px #9999 solid;
+}
+
+.make-contact{
+	background-color: var(--blackTransparent);
+	display: flex;
+	width: 100vw;
+	padding: 2vh 2vw;
+	height: auto;
+	align-items: start;
+	justify-content: space-evenly;
+}
+
+.contact{
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 15vw;
+	text-align:center;
+	justify-content:space-around;
+	height: 25vh;
+	display: flex;
+	flex-direction: column;
+	border-top: 1px solid var(--yelow);
+}
+
+.contact-border-right{
+	border-right: 1px solid var(--yelow);
+}
+
+.contact-border-left{
+	border-left: 1px solid var(--yelow);
+}

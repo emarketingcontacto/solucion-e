@@ -1,0 +1,78 @@
+.mkt-hero{
+	background-image: url('/public/header2.webp');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 25vh 0;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.section-google-ads-container{
+	display: flex;
+	flex-wrap: wrap;
+	width: 98%;
+	height: auto;
+}
+.section-googleads-column{
+	flex-basis: 20vw;
+	flex-grow: 1;
+	flex-shrink: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	padding: 1vh 1vw;
+	border-right: 1px solid var(--yellow);
+}
+.section-googleads-column p{
+	text-align: justify;
+}
+
+.section-anouncements{
+	background-image: url('../images/sem/sem4.webp');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 2px;
+	height: 60vh;
+	display: flex;
+}
+.section-adds{
+	background-image: url('../images/sem/sem1.webp');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 2px;
+	height: 60vh;
+	display: flex;
+}
+
+.section-adds-google{
+	background-image: url('../images/sem/sem2.webp');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 2px;
+	height: 60vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-attachment: fixed;
+}
+.section-adds-why{
+		background-image: url('../images/sem/sem6.webp');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 2px;
+	height: 60vh;
+	display: flex;
+}

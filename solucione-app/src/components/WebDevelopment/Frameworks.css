@@ -1,0 +1,29 @@
+.frameworks-container{
+	display: flex; 
+	justify-content: space-around;
+	width: 100vw;
+	height: auto;
+	gap: 3vw;
+	background-color: var(--yelow);
+	padding: 2vh 2vw;
+}
+
+.frameworks-column{
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 20vw;
+	height: 25vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: var(--gray-text);
+}
+
+.frameworks-column p{
+	font-size: 2rem;
+}
+.frameworks-column img{
+	width: 7vw;
+	height: 13vh;
+}
