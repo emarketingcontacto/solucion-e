@@ -9,6 +9,10 @@
 }
 }
 @media (max-width: 700px) {
+  .home-hero{
+    height: 50vh !important;
+  }
+
 	.section-column{
 		flex-basis: auto !important;
 	}
