@@ -25,7 +25,16 @@
             <div class="text-gray-400 text-sm mb-6 line-clamp-5 italic">
                 {!! $servicio->descripcion !!}
             </div>
-        @php
+            @php
+                $url= match ($servicio->slug) {
+                    'seo-local' => 'servicios.seo',
+                    'tiendas-online' => 'servicios.ecommerce',
+                    'sistemas-a-medida'=>'servicios.herramientas',
+                    'menu-digital' => 'servicios.restaurantes',
+                    default => 'home',
+                };
+            @endphp
+        {{-- @php
             switch($servicio->slug){
                 case'seo-local':
                     $url='servicios.seo';
@@ -42,7 +51,7 @@
                 default:
                 $url='home';
             }
-        @endphp
+        @endphp --}}
 
             <a href="{{route($url)}}" class="inline-flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-white hover:text-brand transition">
                 Saber más
