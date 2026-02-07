@@ -278,7 +278,8 @@
 
                                     <div class="relative overflow-hidden rounded-3xl border border-gray-800 shadow-2xl">
                                         @if($proyecto->imagen_proyecto)
-                                            <a href="{{$proyecto->url}}" target="_blank">
+                                            {{-- <a href="{{$proyecto->url}}" target="_blank"> --}}
+                                            <a href="{{route('proyectos', $proyecto->slug)}}">
                                                 <img src="{{ asset('storage/' . $proyecto->imagen_proyecto) }}"
                                                 alt="Proyecto SEO Local para {{ $proyecto->cliente_nombre }} por Solucion-e"
                                                 class="w-full h-[350px] object-cover filter grayscale hover:grayscale-0 transition duration-700 scale-105 hover:scale-100">
