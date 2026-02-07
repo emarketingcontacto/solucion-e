@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Esto garantiza que aunque se nos olvide una clase, el sitio mantenga el estilo Solucion-e */
+html {
+    background-color: #030712; /* gray-950 */
+}
+
+body {
+    font-family: 'Jura', sans-serif;
+    @apply antialiased tracking-wide;
+}

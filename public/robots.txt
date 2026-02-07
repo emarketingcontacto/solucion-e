@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Bloquear el acceso al panel administrativo y rutas internas
+Disallow: /admin
+Disallow: /login
+Disallow: /register
+Disallow: /password/
+Disallow: /livewire/
+Disallow: /filament/
+Disallow: /storage/framework/
+
+# Ruta del Sitemap
+Sitemap: https://solucion-e.com.mx/sitemap.xml
