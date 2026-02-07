@@ -13,7 +13,9 @@
         {{-- resultado --}}
         <h4 class="text-brand text-lg mt-4 mb-1 uppercase tracking-tight font-semibold">Resultado</h4>
         <div class="text-gray-200 font-light leading-relaxed line-clamp-4">{!! $proyecto->resultado !!}</div>
-        <a href="{{$proyecto->url}}" target="_blank" class="inline-flex items-center text-brand font-bold text-sm gap-2 group-hover:gap-4 transition-all">
+        <a href="{{route('proyectos',$proyecto->slug)}}" class="inline-flex items-center text-brand font-bold text-sm gap-2 group-hover:gap-4 transition-all">
+
+        {{-- <a href="{{$proyecto->url}}" target="_blank" class="inline-flex items-center text-brand font-bold text-sm gap-2 group-hover:gap-4 transition-all"> --}}
             VER RESULTADOS <span class="text-xl">→</span>
         </a>
     </div>
