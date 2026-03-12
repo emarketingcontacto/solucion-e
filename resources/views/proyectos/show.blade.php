@@ -31,7 +31,7 @@
                         <img src="{{ asset('storage/' . $proyecto->imagen_proyecto) }}" alt="{{ $proyecto->cliente_nombre }}" class="rounded-lg shadow-lg border border-cyan-500/30">
                     </div>
                     <div class="mt-4">
-                        <a href="{{$proyecto->url}}" class="text-white underline hover:text-brand text-md">
+                        <a href="{{$proyecto->url}}" target="_blank"lass="text-white underline hover:text-brand text-md">
                             Visitar sitio
                         </a>
                     </div>

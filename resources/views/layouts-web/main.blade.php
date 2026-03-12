@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {{-- google tag manager --}}
+    <meta name="google-site-verification" content="WqSefG-Fwt6jSgcVhqJrJNPXf5WfeJrBnqKG89XV7KU" />
+    {{-- end google tag manager --}}
+
 
     {{-- seo --}}
         @if (!View::hasSection('seo'))
@@ -12,7 +16,6 @@
         @else
             @yield('seo')
         @endif
-
     {{-- seo end --}}
 
     {{-- Favicon Pack --}}
