@@ -4,12 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    {{-- Styles Global --}}
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+    {{-- Styles Global end --}}
+
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-5Z338VPF');</script>
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <script>
+        {{-- 2. Usamos una función para que se ejecute solo después de que la página empiece a cargar --}}
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+        j.async=true; {{-- Esto ya ayuda, pero el navegador igual lo prioriza si está muy arriba --}}
+        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+        f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5Z338VPF');
+    </script>
     <!-- End Google Tag Manager -->
 
     {{-- seo --}}
@@ -29,12 +43,6 @@
         <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
     {{-- Favicon Pack end--}}
 
-    {{-- Styles Global --}}
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
-    {{-- Styles Global end --}}
 
     {{-- CSS extra --}}
     @stack('styles')
@@ -42,10 +50,7 @@
 </head>
 
 <body class="bg-gray-950 text-white antialiased selection:bg-brand selection:text-black">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5Z338VPF"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+
     {{-- navigation --}}
         <x-components-web.navigation></x-components-web.navigation>
     {{-- navigation end--}}
@@ -63,5 +68,10 @@
     {{-- JS extra end --}}
 
     <x-components-web.back-to-top-button></x-components-web.back-to-top-button>
+
+     <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5Z338VPF"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 </body>
 </html>
