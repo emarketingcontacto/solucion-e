@@ -13,14 +13,26 @@
         {{-- resultado --}}
         <h4 class="text-brand text-lg mt-4 mb-1 uppercase tracking-tight font-semibold">Resultado</h4>
         <div class="text-gray-200 font-light leading-relaxed line-clamp-4">{!! $proyecto->resultado !!}</div>
-        <a href="{{route('proyectos',$proyecto->slug)}}" class="inline-flex items-center text-brand font-bold text-sm gap-2 group-hover:gap-4 transition-all">
-
-        {{-- <a href="{{$proyecto->url}}" target="_blank" class="inline-flex items-center text-brand font-bold text-sm gap-2 group-hover:gap-4 transition-all"> --}}
+        <a href="{{route('proyectos',$proyecto->slug)}}"
+            aria-label="Ver resultados del proyecto {{ $proyecto->cliente_nombre }}"
+            class="inline-flex items-center text-brand font-bold text-sm gap-2 group-hover:gap-4 transition-all">
             VER RESULTADOS <span class="text-xl">→</span>
         </a>
     </div>
     {{-- image --}}
-    <div class="h-64 bg-gradient-to-br from-brand/20 to-transparent">
-        <img src="{{asset('storage/'.$proyecto->imagen_proyecto)}}" alt="{{$proyecto->cliente_nombre}}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="h-64 bg-gradient-to-br from-brand/20 to-transparent relative"> {{-- Mantenemos tu degradado --}}
+        @if($proyecto->imagen_proyecto)
+            <img src="{{ asset('storage/' . $proyecto->imagen_proyecto) }}"
+                 alt="Caso de éxito: {{ $proyecto->cliente_nombre }} - Solucion-e"
+                 {{-- Agregamos dimensiones para evitar el salto de página (CLS) --}}
+                 width="800"
+                 height="450"
+                 {{-- Optimizamos la carga sin romper el diseño --}}
+                 loading="lazy"
+                 decoding="async"
+                 {{-- Mantenemos tus clases originales de posición y efecto --}}
+                 class="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:scale-110 transition-transform duration-500">
+        @endif
     </div>
+
 </div>

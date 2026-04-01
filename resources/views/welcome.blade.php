@@ -233,6 +233,10 @@
                         {{-- Cambio de z-1 a z-10 --}}
                         <img src="{{ asset('images/about-us.webp') }}"
                             alt="Soluciones tecnológicas Solucion-e"
+                            width="600"
+                            height="500"
+                            loading="lazy"
+                            decoding="async"
                             class="relative z-10 w-full h-auto drop-shadow-2xl transform group-hover:-translate-y-2 transition-transform duration-500">
 
                         {{-- Elemento flotante --}}
