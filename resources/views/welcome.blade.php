@@ -118,9 +118,13 @@
         <section class="relative pt-32 pb-20 px-6 overflow-hidden bg-gray-950">
             {{-- Imagen de fondo --}}
             <div class="absolute inset-0 z-0">
-                <img src="{{ asset('images/header1.jpg') }}"
+                <img src="{{ asset('images/header1.webp') }}"
+                    width="1920"
+                    height="1080"
+                    fetchpriority="high"
+                    loading="eager"
                     class="w-full h-full object-cover opacity-60 scale-105 blur-[2px]"
-                    alt="Background">
+                    alt="Consultoría Digital Solucion-e">
                 {{-- Gradiente sutil para suavizar la transición inferior --}}
                 <div class="absolute inset-0 bg-gradient-to-b from-transparent via-gray-950/20 to-gray-950"></div>
             </div>
@@ -376,7 +380,7 @@
                 </div>
             </div>
         </section>
-        <script src="{{asset('/scripts/scripts.js')}}"></script>
+        <script src="{{asset('/scripts/scripts.js')}}" defer></script>
     {{-- FAQs end --}}
 
     {{-- Contact --}}
