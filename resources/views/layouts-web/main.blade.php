@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    {{-- Styles Global --}}
+    {{-- styles local --}}
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
-    {{-- Styles Global end --}}
+    <link rel="preload" href="{{ asset('fonts/jura/jura-v34-latin-regular.woff2') }}" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="{{ asset('css/styleweb.css') }}">
+    {{-- end styles local  --}}
 
     <!-- Google Tag Manager -->
     <link rel="preconnect" href="https://www.googletagmanager.com">

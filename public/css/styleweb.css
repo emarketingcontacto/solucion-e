@@ -1,0 +1,49 @@
+/* FUENTES LOCALES - JURA */
+
+@font-face {
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('/fonts/jura/jura-v34-latin-300.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/fonts/jura/jura-v34-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('/fonts/jura/jura-v34-latin-600.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('/fonts/jura/jura-v34-latin-700.woff2') format('woff2');
+}
+
+/* ANIMACIONES GLOBALES (Para el formulario y otros) */
+
+@keyframes shimmer {
+    0% { transform: translateX(-500%) skew(-20deg); }
+    100% { transform: translateX(500%) skew(-20deg); }
+}
+
+@keyframes bounce-short {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-4px); }
+}
+
+.animate-bounce-short {
+    animation: bounce-short 2s ease-in-out infinite;
+}
