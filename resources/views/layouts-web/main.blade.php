@@ -11,18 +11,19 @@
     <link rel="stylesheet" href="{{ asset('css/styleweb.css') }}">
     {{-- end styles local  --}}
 
+    {{-- Google Search Console --}}
+    <meta name="google-site-verification" content="WqSefG-Fwt6jSgcVhqJrJNPXf5WfeJrBnqKG89XV7KU" />
+    {{-- end Google Search Console --}}
+
+
     <!-- Google Tag Manager -->
-    <link rel="preconnect" href="https://www.googletagmanager.com">
-    <script>
-        {{-- 2. Usamos una función para que se ejecute solo después de que la página empiece a cargar --}}
-        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
-        j.async=true; {{-- Esto ya ayuda, pero el navegador igual lo prioriza si está muy arriba --}}
-        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
-        f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-5Z338VPF');
-    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5Z338VPF');</script>
+<!-- End Google Tag Manager -->
     <!-- End Google Tag Manager -->
 
     {{-- seo --}}
@@ -68,7 +69,7 @@
 
     <x-components-web.back-to-top-button></x-components-web.back-to-top-button>
 
-     <!-- Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5Z338VPF"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
