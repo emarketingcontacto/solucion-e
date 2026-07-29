@@ -1,8 +1,8 @@
 @extends('layouts-web.main')
 
 @section('seo')
-    <title>Solucion-e | Consultoría Digital y Desarrollo de Software</title>
-    <meta name="description" content="Transformamos tu negocio con soluciones digitales a medida. Expertos en E-commerce, desarrollo de software y estrategias digitales para impulsar tu crecimiento.">
+    <title>Diseño de paginas web y SEO para negocios en León Guanajuato </title>
+    <meta name="description" content="Desarrollo de páginas y sistemas web a medida para PyMEs en León, Gto. Impulsa tus ventas con SEO local y paneles de control para gestionar tu negocio.">
     <meta name="keywords" content="desarrollo web, e-commerce, soluciones digitales, consultoría IT, software a medida">
     <link rel="canonical" href="{{ url()->current() }}">
 
