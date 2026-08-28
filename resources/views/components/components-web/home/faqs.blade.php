@@ -1,0 +1,189 @@
+<section id="faq" class="py-24 bg-gray-900/50">
+    <div class="max-w-4xl mx-auto px-6">
+
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+                Preguntas <span class="text-brand italic">Frecuentes</span>
+            </h2>
+
+            <p class="text-gray-400">
+                Resolvemos algunas de las dudas más comunes antes de comenzar un proyecto.
+            </p>
+        </div>
+
+        <div class="space-y-4">
+
+            {{-- Pregunta 1 --}}
+            <details name="faq" class="group bg-gray-800/30 border border-white/5 rounded-2xl p-6 [&_summary::-webkit-details-marker]:hidden" open>
+                <summary class="flex items-center justify-between cursor-pointer">
+                    <h3 class="text-lg font-medium text-white group-hover:text-brand transition-colors">
+                        ¿Cómo sé qué solución necesita mi negocio?
+                    </h3>
+
+                    <span class="text-brand transition group-open:rotate-180">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="w-5 h-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </span>
+                </summary>
+
+                <p class="mt-4 text-gray-400 leading-relaxed">
+                    No necesitas saberlo de antemano. Primero analizamos qué quieres mejorar o resolver y,
+                    a partir de ahí, identificamos si necesitas fortalecer tu presencia local, desarrollar
+                    un sitio web o implementar una herramienta para algún proceso de tu negocio.
+                </p>
+            </details>
+
+            {{-- Pregunta 2 --}}
+            <details name="faq" class="group bg-gray-800/30 border border-white/5 rounded-2xl p-6 [&_summary::-webkit-details-marker]:hidden">
+                <summary class="flex items-center justify-between cursor-pointer">
+                    <h3 class="text-lg font-medium text-white group-hover:text-brand transition-colors">
+                        ¿Necesito tener una página web para trabajar con Solucion-e?
+                    </h3>
+
+                    <span class="text-brand transition group-open:rotate-180">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="w-5 h-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </span>
+                </summary>
+
+                <p class="mt-4 text-gray-400 leading-relaxed">
+                    No. Podemos trabajar con negocios que comienzan desde cero o que ya cuentan con un
+                    sitio web, Google Business Profile u otras herramientas. Primero revisamos lo que ya
+                    tienes y determinamos qué realmente necesitas mejorar o desarrollar.
+                </p>
+            </details>
+
+            {{-- Pregunta 3 --}}
+            <details name="faq" class="group bg-gray-800/30 border border-white/5 rounded-2xl p-6 [&_summary::-webkit-details-marker]:hidden">
+                <summary class="flex items-center justify-between cursor-pointer">
+                    <h3 class="text-lg font-medium text-white group-hover:text-brand transition-colors">
+                        ¿Una página web realmente puede ayudarme a conseguir clientes?
+                    </h3>
+
+                    <span class="text-brand transition group-open:rotate-180">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="w-5 h-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </span>
+                </summary>
+
+                <p class="mt-4 text-gray-400 leading-relaxed">
+                    Una página por sí sola no garantiza clientes. Para generar oportunidades necesita
+                    responder a lo que buscan tus clientes, poder ser encontrada y facilitar una acción
+                    como llamar, enviar un mensaje o solicitar información. Por eso integramos estrategia,
+                    SEO y medición cuando el proyecto lo requiere.
+                </p>
+            </details>
+
+            {{-- Pregunta 4 --}}
+            <details name="faq" class="group bg-gray-800/30 border border-white/5 rounded-2xl p-6 [&_summary::-webkit-details-marker]:hidden">
+                <summary class="flex items-center justify-between cursor-pointer">
+                    <h3 class="text-lg font-medium text-white group-hover:text-brand transition-colors">
+                        ¿Solucion-e solamente desarrolla páginas web?
+                    </h3>
+
+                    <span class="text-brand transition group-open:rotate-180">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="w-5 h-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </span>
+                </summary>
+
+                <p class="mt-4 text-gray-400 leading-relaxed">
+                    No. Trabajamos con SEO Local, sitios web profesionales y plataformas web personalizadas,
+                    además de soluciones especializadas para restaurantes. La solución depende del problema
+                    que necesite resolver cada negocio.
+                </p>
+            </details>
+
+            {{-- Pregunta 5 --}}
+            <details name="faq" class="group bg-gray-800/30 border border-white/5 rounded-2xl p-6 [&_summary::-webkit-details-marker]:hidden">
+                <summary class="flex items-center justify-between cursor-pointer">
+                    <h3 class="text-lg font-medium text-white group-hover:text-brand transition-colors">
+                        ¿Puedo comenzar con una solución y agregar otras herramientas después?
+                    </h3>
+
+                    <span class="text-brand transition group-open:rotate-180">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="w-5 h-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </span>
+                </summary>
+
+                <p class="mt-4 text-gray-400 leading-relaxed">
+                    Sí. Buscamos resolver primero las necesidades actuales del negocio y permitir que la
+                    solución evolucione cuando aparecen nuevas necesidades, sin incorporar desde el principio
+                    herramientas que todavía no necesita.
+                </p>
+            </details>
+
+            {{-- Pregunta 6 --}}
+            <details name="faq" class="group bg-gray-800/30 border border-white/5 rounded-2xl p-6 [&_summary::-webkit-details-marker]:hidden">
+                <summary class="flex items-center justify-between cursor-pointer">
+                    <h3 class="text-lg font-medium text-white group-hover:text-brand transition-colors">
+                        ¿Cómo puedo saber si la solución está dando resultados?
+                    </h3>
+
+                    <span class="text-brand transition group-open:rotate-180">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="w-5 h-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </span>
+                </summary>
+
+                <p class="mt-4 text-gray-400 leading-relaxed">
+                    Definimos qué queremos conseguir y utilizamos las herramientas de medición adecuadas
+                    para evaluar su funcionamiento. Dependiendo del proyecto podemos medir visibilidad,
+                    tráfico, contactos, acciones de los usuarios u otros indicadores relacionados con
+                    el objetivo.
+                </p>
+            </details>
+
+        </div>
+    </div>
+</section>
+{{-- <script src="{{asset('/scripts/scripts.js')}}" defer></script> --}}

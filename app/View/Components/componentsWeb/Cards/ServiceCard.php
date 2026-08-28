@@ -1,19 +1,20 @@
 <?php
 
-namespace App\View\Components\componentsWeb;
+namespace App\View\Components\componentsWeb\Cards;
 
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 use App\Models\Servicio;
 
-class serviciosCard extends Component
+class ServiceCard extends Component
 {
     /**
      * Create a new component instance.
      */
-    //Variables
+    //Variable
     public Servicio $servicio;
+
     public function __construct(Servicio $servicio)
     {
         $this->servicio = $servicio;
@@ -24,6 +25,6 @@ class serviciosCard extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.components-web.servicios-card');
+        return view('components.components-web.cards.service-card');
     }
 }

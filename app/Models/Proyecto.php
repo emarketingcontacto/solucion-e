@@ -12,11 +12,20 @@ class Proyecto extends Model
         'cliente_nombre',
         'slug',
         'problema',
+        'sinopsis_reto',
         'resultado',
+        'sinopsis_resultado',
         'solucion',
+        'sinopsis_solucion',
         'url',
         'imagen_proyecto',
-        'publicado'
+        'publicado',
+        'destacado'
+    ];
+
+    protected $casts = [
+        'publicado' => 'boolean',
+        'destacado' => 'boolean',
     ];
 
     public function servicio(){

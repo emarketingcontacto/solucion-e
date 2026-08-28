@@ -1,12 +1,12 @@
 <?php
 
-namespace App\View\Components\componentsWeb;
+namespace App\View\Components\componentsWeb\Home;
 
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class backToTopButton extends Component
+class Technologies extends Component
 {
     /**
      * Create a new component instance.
@@ -21,6 +21,6 @@ class backToTopButton extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.components-web.back-to-top-button');
+        return view('components.components-web.home.technologies');
     }
 }

@@ -1,16 +1,15 @@
 <?php
 
-namespace App\View\Components\componentsWeb;
+namespace App\View\Components\componentsWeb\Cards;
 
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 use App\Models\Proyecto;
 
-class proyectosCard extends Component
+class ProjectCard extends Component
 {
-    // Create a new component instance.
-    //variables
+    //Variables
     public Proyecto $proyecto;
 
     public function __construct(Proyecto $proyecto)
@@ -23,6 +22,6 @@ class proyectosCard extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.components-web.proyectos-card');
+        return view('components.components-web.cards.project-card');
     }
 }

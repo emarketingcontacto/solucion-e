@@ -32,6 +32,14 @@ class ServicioForm
                         ->required()
                         ->unique(ignoreRecord:true),
 
+                        Textarea::make('sinopsis')
+                        ->label('Sinopsis / Resumen corto')
+                        ->maxLength(500)
+                        ->rows(3)
+                        ->nullable()
+                        ->helperText('Máximo 500 caracteres. Se mostrará como tarjeta o presentación breve del servicio.')
+                        ->columnSpanFull(),
+
                         RichEditor::make('descripcion')
                         ->required()
                         ->columnSpanFull()

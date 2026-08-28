@@ -14,12 +14,25 @@ class WelcomeController extends Controller
     public function __invoke(Request $request)
     {
         //servicios
-        $servicios = Servicio::where('activo', true)->get();
+        $orden= [
+            'seo-local',
+            'sitios-web-profesionales',
+            'plataformas-web-personalizadas',
+            'soluciones-web-para-restaurantes',
+        ];
+
+        $servicios = Servicio::where('activo', true)
+        ->whereIn('slug',$orden)
+        ->get()
+        ->sortBy(fn($servicio)=> array_search($servicio->slug, $orden))
+        ->values();
+
         //proyectos
-        $proyectos = Proyecto::where('publicado', true)
-        ->with('servicio')
+        $proyectos = Proyecto::with('servicio')
+        ->where('publicado', true)
+        ->where('destacado', true)
         ->latest()
-        ->take(3)
+        ->take(4)
         ->get();
 
         return view('welcome', compact('servicios'), compact('proyectos'));

@@ -10,8 +10,8 @@
         <div class="hidden md:flex space-x-8 font-bold text-[12px] uppercase tracking-[0.2em] items-center">
             @php $links = [
                 'servicios.seo' => 'SEO Local',
-                'servicios.ecommerce' => 'Tiendas Online',
-                'servicios.herramientas' => 'Sistemas SaaS',
+                'servicios.sitiosweb'=>'Sitios Web',
+                'servicios.plataformasweb' => 'Plataformas Web',
                 'servicios.restaurantes' => 'Restaurantes'
             ]; @endphp
 
@@ -32,7 +32,7 @@
                     <span class="absolute inset-0 w-full h-full border border-brand/50"></span>
 
                     <span class="relative text-[10px] font-black uppercase tracking-[0.2em] text-brand group-hover:text-brand-dark transition-colors">
-                        INICIAR PROYECTO //
+                        Contáctanos //
                     </span>
                 </a>
             {{-- Link de Contacto Destacado end --}}
@@ -75,7 +75,7 @@
                 @endforeach
 
                 <div class="h-[1px] w-full bg-gray-900 my-2"></div>
-                <a href="{{ route('contacto') }}" class="block text-xs font-mono text-brand uppercase tracking-widest font-bold">Iniciar Proyecto //</a>
+                <a href="{{ route('contacto') }}" class="block text-xs font-mono text-brand uppercase tracking-widest font-bold">Contáctanos //</a>
                 {{--
                 <a href="{{ route('login') }}" class="text-brand font-bold uppercase tracking-widest text-sm">
                     Acceso Admin

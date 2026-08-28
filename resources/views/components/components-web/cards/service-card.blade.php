@@ -1,5 +1,3 @@
-{{-- @props(['servicio']) --}}
-
 <div class="group relative bg-gray-900/50 border border-gray-800 rounded-3xl p-1 overflow-hidden hover:border-brand/50 transition-all duration-500">
     {{-- Efecto de resplandor de fondo --}}
     <div class="absolute -inset-px bg-gradient-to-r from-brand/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-3xl"></div>
@@ -9,7 +7,7 @@
         <div class="h-64 overflow-hidden">
             @if($servicio->imagen)
                 <img src="{{ asset('storage/' . $servicio->imagen) }}"
-                    alt="Servicio de {{ $servicio->nombre }} -Solucion-e"
+                    alt="Servicio de {{ $servicio->nombre }} - Solucion-e"
                     width="600"
                     height="400"
                     loading="lazy"
@@ -19,22 +17,30 @@
         </div>
 
         <div class="p-8">
-            <div class="flex justify-between items-start mb-4">
-                <h3 class="text-2xl font-bold text-white group-hover:text-brand transition-colors">
-                    {{ $servicio->nombre }}
+           <div class="flex items-start mb-4 min-h-24">
+                <h3 class="text-2xl font-bold leading-tight text-white group-hover:text-brand transition-colors">
+                    @php
+                        $h3 = match($servicio->nombre){
+                            'SEO Local' => 'Quiero aparecer en Google',
+                            'Sitios Web Profesionales' => 'Necesito una página web profesional',
+                            'Plataformas Web Personalizadas' => 'Quiero organizar procesos de mi negocio',
+                            'Soluciones Web para Restaurantes' => 'Necesito promover mi restaurante',
+                            default => '',
+                        }
+                    @endphp
+                    {{$h3}}
                 </h3>
-                <span class="text-brand font-mono font-bold">${{ number_format($servicio->precio, 0) }}</span>
             </div>
 
             <div class="text-gray-400 text-sm mb-6 line-clamp-5 italic">
-                {!! $servicio->descripcion !!}
+                {{$servicio->sinopsis}}
             </div>
             @php
                 $url= match ($servicio->slug) {
                     'seo-local' => 'servicios.seo',
-                    'tiendas-online' => 'servicios.ecommerce',
-                    'sistemas-a-medida'=>'servicios.herramientas',
-                    'menu-digital' => 'servicios.restaurantes',
+                    'sitios-web-profesionales' => 'servicios.sitiosweb',
+                    'plataformas-web-personalizadas'=>'servicios.plataformasweb',
+                    'soluciones-web-para-restaurantes' => 'servicios.restaurantes',
                     default => 'home',
                 };
             @endphp
@@ -49,4 +55,3 @@
         </div>
     </div>
 </div>
-

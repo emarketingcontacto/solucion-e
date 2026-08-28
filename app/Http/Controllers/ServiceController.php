@@ -3,47 +3,46 @@
 namespace App\Http\Controllers;
 
 use App\Models\Proyecto;
-use Illuminate\Http\Request;
+//use Illuminate\Http\Request;
 
 class ServiceController extends Controller
 {
-    //SEO Local
+
+        //SEO Local
     public function seolocal(){
-
         $proyectos = Proyecto::whereHas('servicio', function($query) {
-            $query->where('nombre', 'like', '%SEO%'); // O usa el ID exacto
+            $query->where('slug','seo-local');
         })->where('publicado', true)->get();
 
-        return view('servicios.seo', [
-            'titulo'=>'SEO Local & Panel de Control',
-            'meta_desc'=> 'Estrategias de posicionamiento local con autogestion total para tu negocio.',
+        return view('servicios.seo-local', [
+            'titulo'=>'SEO Local en León | Mejora tu visibilidad en Google',
+            'meta_desc'=> 'Mejora la presencia de tu negocio en Google Maps y búsquedas locales con SEO Local para atraer clientes que buscan tus productos o servicios en León.',
             'proyectos'=>$proyectos
         ]);
     }
 
-    public function ecommerce(){
-
-        $proyectos = Proyecto::whereHas('servicio', function($query) {
-            $query->where('nombre', 'like','%Tiendas Online%');
+    //Sitios Web
+    public function sitiosWeb(){
+        $proyectos = Proyecto::whereHas('servicio', function($query){
+            $query->where('nombre', 'like', '%Sitios Web Profesionales%');
         })->where('publicado', true)->get();
 
-
-        return view('servicios.ecommerce', [
-            'titulo'=>'E-commerce de Alto Rendimiento',
-            'meta_desc'=> 'Tiendas online diseñadas para vender, con carrito de compras y pagos online seguros.',
+        return view('servicios.sitioswebprofesionales', [
+            'titulo'=>'Diseño de Páginas Web en León | Sitios Web Profesionales',
+            'meta_desc'=>'Diseño de páginas web en León para negocios y PyMEs. Creamos sitios web profesionales orientados a generar oportunidades y medir resultados.',
             'proyectos'=>$proyectos
         ]);
     }
 
-    public function herramientas(){
+    public function plataformasWeb(){
 
         $proyectos = Proyecto::whereHas('servicio', function($query) {
-            $query->where('nombre', 'like','%Sistemas a Medida%');
+            $query->where('nombre', 'like','%Plataformas Web Personalizadas%');
         })->where('publicado', true)->get();
 
-        return view('servicios.herramientas', [
-            'titulo'=>'Herramientas Digitales a Medida',
-            'meta_desc'=> 'Sistemas especializados para médicos, abogados y profesionales que buscan eficiencia.',
+        return view('servicios.plataformasweb', [
+            'titulo'=>'Plataformas Web Personalizadas en León | Solucion-e',
+            'meta_desc'=> 'Desarrollamos plataformas web personalizadas en León para organizar información, digitalizar procesos y mejorar el control de la operación de tu negocio.',
             'proyectos'=>$proyectos
         ]);
     }
@@ -54,8 +53,8 @@ class ServiceController extends Controller
         })->where('publicado', true)->get();
 
         return view('servicios.restaurantes', [
-            'titulo'=>'Soluciones para Restaurantes y Menus QR',
-            'meta_desc'=> 'Digitaliza tu menú y optimiza la atención al cliente con tecnología QR.',
+            'titulo' => 'Soluciones Web para Restaurantes en León | Menú Digital',
+            'meta_desc' => 'Soluciones web para restaurantes en León con menú digital administrable, códigos QR y herramientas para mejorar su presencia y medir resultados.',
             'proyectos'=>$proyectos
         ]);
     }
