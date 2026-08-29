@@ -1,62 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://solucion-e.com.mx/</loc>
-  <lastmod>2026-04-01T18:48:27+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://solucion-e.com.mx/seo-local</loc>
-  <lastmod>2026-04-01T18:48:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://solucion-e.com.mx/tiendas-web-ecommerce</loc>
-  <lastmod>2026-04-01T18:48:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://solucion-e.com.mx/herramientas-digitales-especializadas</loc>
-  <lastmod>2026-04-01T18:48:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://solucion-e.com.mx/soluciones-web-restaurantes</loc>
-  <lastmod>2026-04-01T18:48:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://solucion-e.com.mx/contacto</loc>
-  <lastmod>2026-04-01T18:48:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://solucion-e.com.mx/proyectos/rentas-y-decoracion-alvarez-hernandez</loc>
-  <lastmod>2026-04-01T18:48:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://solucion-e.com.mx/proyectos/centro-veterinario-las-torres</loc>
-  <lastmod>2026-04-01T18:48:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://solucion-e.com.mx/privacidad</loc>
-  <lastmod>2026-04-01T18:48:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://solucion-e.com.mx/terminos</loc>
-  <lastmod>2026-04-01T18:48:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+    <url>
+    <loc>http://solucion-e.test</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+            </url>
+    <url>
+    <loc>http://solucion-e.test/seo-local</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+            </url>
+    <url>
+    <loc>http://solucion-e.test/sitios-web-profesionales</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+            </url>
+    <url>
+    <loc>http://solucion-e.test/plataformas-web-personalizadas</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+            </url>
+    <url>
+    <loc>http://solucion-e.test/soluciones-web-restaurantes</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+            </url>
+    <url>
+    <loc>http://solucion-e.test/contacto</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+            </url>
 </urlset>

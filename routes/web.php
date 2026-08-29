@@ -74,4 +74,14 @@ Route::get('/limpiar-cache', function () {
     return '¡Caché de Blade y aplicación limpiada con éxito!';
 });
 
+//Crear sitemap
+Route::get('/generar-sitemap', function () {
+    try {
+        Artisan::call('sitemap:generate');
+        return 'Sitemap generado correctamente en public/sitemap.xml';
+    } catch (\Exception $e) {
+        return 'Error al generar sitemap: ' . $e->getMessage();
+    }
+});
+
 require __DIR__.'/auth.php';
