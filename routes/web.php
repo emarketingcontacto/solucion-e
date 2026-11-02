@@ -8,6 +8,7 @@ use App\Http\Controllers\SitemapController;
 use App\Http\Controllers\WelcomeController;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
+//use Spatie\Sitemap\SitemapGenerator;
 
 // Web Routes
 Route::get('/', WelcomeController::class)->name('home');

@@ -132,7 +132,7 @@
     {{-- FAQs end --}}
 
     {{-- Contact --}}
-        <x-components-web.shared.contact-form />
+        {{-- <x-components-web.shared.contact-form /> --}}
     {{-- Contact --}}
 
 @endsection {{-- main content end--}}
