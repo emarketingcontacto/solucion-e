@@ -49,7 +49,7 @@
                                 "itemOffered": {
                                     "@type": "Service",
                                     "name": "SEO Local",
-                                    "url": "https://solucion-e.com.mx/seo-local/"
+                                    "url": "https://solucion-e.com.mx/seo-local"
                                 }
                             },
                             {
@@ -57,7 +57,7 @@
                                 "itemOffered": {
                                     "@type": "Service",
                                     "name": "Sitios Web Profesionales",
-                                    "url": "https://solucion-e.com.mx/sitios-web-profesionales/"
+                                    "url": "https://solucion-e.com.mx/sitios-web-profesionales"
                                 }
                             },
                             {
@@ -65,7 +65,7 @@
                                 "itemOffered": {
                                     "@type": "Service",
                                     "name": "Plataformas Web Personalizadas",
-                                    "url": "https://solucion-e.com.mx/plataformas-web-personalizadas/"
+                                    "url": "https://solucion-e.com.mx/plataformas-web-especializadas"
                                 }
                             },
                             {
@@ -73,7 +73,7 @@
                                 "itemOffered": {
                                     "@type": "Service",
                                     "name": "Soluciones Web para Restaurantes",
-                                    "url": "https://solucion-e.com.mx/soluciones-web-restaurantes/"
+                                    "url": "https://solucion-e.com.mx/soluciones-web-restaurantes"
                                 }
                             }
                         ]
