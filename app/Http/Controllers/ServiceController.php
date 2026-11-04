@@ -8,8 +8,8 @@ use App\Models\Proyecto;
 class ServiceController extends Controller
 {
 
-        //SEO Local
-    public function seolocal(){
+    //SEO Local
+    public function seoLocal(){
         $proyectos = Proyecto::whereHas('servicio', function($query) {
             $query->where('slug','seo-local');
         })->where('publicado', true)->get();
@@ -24,7 +24,7 @@ class ServiceController extends Controller
     //Sitios Web
     public function sitiosWeb(){
         $proyectos = Proyecto::whereHas('servicio', function($query){
-            $query->where('nombre', 'like', '%Sitios Web Profesionales%');
+            $query->where('slug','sitios-web-profesionales');
         })->where('publicado', true)->get();
 
         return view('servicios.sitioswebprofesionales', [
@@ -37,19 +37,19 @@ class ServiceController extends Controller
     public function plataformasWeb(){
 
         $proyectos = Proyecto::whereHas('servicio', function($query) {
-            $query->where('nombre', 'like','%Plataformas Web Personalizadas%');
+            $query->where('slug','plataformas-web-especializadas');
         })->where('publicado', true)->get();
 
         return view('servicios.plataformasweb', [
-            'titulo'=>'Plataformas Web Personalizadas en León | Solucion-e',
-            'meta_desc'=> 'Desarrollamos plataformas web personalizadas en León para organizar información, digitalizar procesos y mejorar el control de la operación de tu negocio.',
+            'titulo'=>'Plataformas Web Especializadas en León | Solucion-e',
+            'meta_desc'=> 'Desarrollamos plataformas web especializadas en León para organizar información, digitalizar procesos y mejorar el control de la operación de tu negocio.',
             'proyectos'=>$proyectos
         ]);
     }
 
     public function restaurantes(){
             $proyectos = Proyecto::whereHas('servicio', function($query) {
-            $query->where('nombre', 'like','%Menu Digital');
+            $query->where('slug','soluciones-web-restaurantes');
         })->where('publicado', true)->get();
 
         return view('servicios.restaurantes', [

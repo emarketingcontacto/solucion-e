@@ -2,7 +2,7 @@
 <header class="sticky top-0 z-[60] w-full bg-gray-950/80 backdrop-blur-md border-b border-white/5">
     <nav x-data="{ open: false }" class="p-6 max-w-7xl mx-auto flex justify-between items-center relative z-[60]">
         {{-- Logo --}}
-        <a href="/" class="text-2xl font-black text-brand uppercase tracking-tighter italic">
+        <a href="{{ route('home') }}" class="text-2xl font-black text-brand uppercase tracking-tighter italic">
             Solucion-<span class="text-red-500">e</span>
         </a>
 

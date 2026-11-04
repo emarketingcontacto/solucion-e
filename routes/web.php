@@ -63,16 +63,59 @@ Route::get('ejecutar-migraciones', function (){
         return 'Error en migrations'. $e->getMessage();
     }
 });
-// Limpiar cache
+// Limpiar cache v1
+/*
 Route::get('/limpiar-cache', function () {
+    // Limpia la caché de la configuracion
+    Artisan::call('config:clear');
     // Limpia la caché de plantillas Blade compilaras
     Artisan::call('view:clear');
-
-    // Opcional: Limpia la caché general de la aplicación y de rutas
-    Artisan::call('cache:clear');
+    // Limpia la caché general de la aplicación y de rutas
+    //Artisan::call('cache:clear');
+    // Limpia la caché de las rutas
     Artisan::call('route:clear');
-
     return '¡Caché de Blade y aplicación limpiada con éxito!';
+});
+*/
+
+// Limpiar cache v2
+Route::get('/limpiar-cache', function () {
+    $commands = [
+        'config:clear',
+        'view:clear',
+        'route:clear',
+    ];
+
+    $results = [];
+
+    try {
+        foreach ($commands as $command) {
+            $exitCode = Artisan::call($command);
+            $output = trim(Artisan::output());
+
+            if ($exitCode !== 0) {
+                return response(
+                    "Falló el comando {$command}. Código: {$exitCode}.",
+                    500
+                );
+            }
+
+            $results[] = $output ?: "{$command}: correcto";
+        }
+
+        return response(implode("\n", $results), 200)
+            ->header('Content-Type', 'text/plain; charset=UTF-8');
+
+    } catch (\Throwable $e) {
+        logger()->error('Error al limpiar cachés', [
+            'exception' => $e,
+        ]);
+
+        return response(
+            'Ocurrió un error al limpiar las cachés. Revisa el log de Laravel.',
+            500
+        );
+    }
 });
 
 //Crear sitemap
