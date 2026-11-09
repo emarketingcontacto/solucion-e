@@ -17,8 +17,8 @@ class WelcomeController extends Controller
         $orden= [
             'seo-local',
             'sitios-web-profesionales',
-            'plataformas-web-personalizadas',
-            'soluciones-web-para-restaurantes',
+            'plataformas-web-especializadas',
+            'soluciones-web-restaurantes',
         ];
 
         $servicios = Servicio::where('activo', true)

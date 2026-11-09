@@ -9,7 +9,7 @@
                De la necesidad a la <span class="text-brand italic">solución</span>
             </h2>
             <p class="text-gray-400 max-w-2xl mx-auto">
-                Entendemos la situación actual del negocio, identificamos sus necesidades y desarrollamos la solución adecuada para alcanzar objetivos concretos.
+                Acompañamos cada proyecto desde el diagnóstico hasta la mejora continua, con decisiones alineadas a los objetivos del negocio.
             </p>
         </div>
 
@@ -30,7 +30,7 @@
                 <div class="text-brand font-mono text-5xl font-bold opacity-20 mb-4 group-hover:opacity-100 transition-opacity">02</div>
                 <h3 class="text-xl font-bold text-white mb-3 tracking-tight">Análisis</h3>
                 <p class="text-gray-400 text-sm leading-relaxed">
-                    Identificamos necesidades, prioridades y las soluciones tecnológicas viables de acuerdo con los objetivos del negocio.
+                    Revisamos los problemas detectados, definimos cuáles atender primero y evaluamos las soluciones tecnológicas viables para alcanzar los objetivos del negocio.
                 </p>
             </div>
 
@@ -39,7 +39,7 @@
                 <div class="text-brand font-mono text-5xl font-bold opacity-20 mb-4 group-hover:opacity-100 transition-opacity">03</div>
                 <h3 class="text-xl font-bold text-white mb-3 tracking-tight">Diseño</h3>
                 <p class="text-gray-400 text-sm leading-relaxed">
-                    Definimos la arquitectura, funcionalidades, experiencia y flujo de la solución antes de comenzar su desarrollo.
+                    Definimos la arquitectura, funcionalidades, experiencia de uso y flujo de la solución antes de comenzar su desarrollo.
                 </p>
             </div>
 
@@ -66,7 +66,7 @@
                 <div class="text-brand font-mono text-5xl font-bold opacity-20 mb-4 group-hover:opacity-100 transition-opacity">06</div>
                 <h3 class="text-xl font-bold text-white mb-3 tracking-tight">Evolución</h3>
                 <p class="text-gray-400 text-sm leading-relaxed">
-                    Identificamos nuevas necesidades y oportunidades para incorporar herramientas conforme evoluciona el negocio.
+                    Identificamos nuevas necesidades y oportunidades para incorporar herramientas cuando el negocio lo requiera.
                 </p>
             </div>
 

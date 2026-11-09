@@ -16,13 +16,13 @@
 
                 <div class="space-y-6 text-gray-400 text-lg font-light leading-relaxed">
                     <p>
-                        En <strong class="text-white font-semibold italic">Solucion-e</strong>, no comenzamos por una tecnología o un paquete predeterminado. Primero entendemos qué necesita resolver el negocio.
+                        En <strong class="text-white font-semibold italic">Solucion-e</strong>, primero entendemos qué necesitas resolver. Después definimos la solución web adecuada para tu negocio, sin partir de paquetes predeterminados.
                     </p>
                     <p>
-                        Integramos la tecnología web adecuada a sus necesidades actuales para mejorar su presencia, generar oportunidades o facilitar parte de su operación.
+                        Podemos ayudarte a mejorar tu presencia en línea, generar oportunidades o facilitar tus procesos.
                     </p>
                     <p class="text-gray-300">
-                        Conforme el negocio evoluciona, la solución puede evolucionar con él, incorporando  nuevas herramientas <span class="text-brand font-medium">cuando realmente las necesita.</span>
+                        Y cuando cambien tus necesidades, la solución puede crecer contigo e incorporar nuevas herramientas  <span class="text-brand font-medium">cuando aporten valor.</span>
                     </p>
                 </div>
 

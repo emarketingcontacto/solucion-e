@@ -23,7 +23,7 @@
                         $h3 = match($servicio->nombre){
                             'SEO Local' => 'Quiero aparecer en Google',
                             'Sitios Web Profesionales' => 'Necesito una página web profesional',
-                            'Plataformas Web Personalizadas' => 'Quiero organizar procesos de mi negocio',
+                            'Plataformas Web Especializadas' => 'Quiero organizar procesos de mi negocio',
                             'Soluciones Web para Restaurantes' => 'Necesito promover mi restaurante',
                             default => '',
                         }
@@ -32,15 +32,15 @@
                 </h3>
             </div>
 
-            <div class="text-gray-400 text-sm mb-6 line-clamp-5 italic">
+            <div class="text-gray-400 text-sm mb-6 italic">
                 {{$servicio->sinopsis}}
             </div>
             @php
                 $url= match ($servicio->slug) {
                     'seo-local' => 'servicios.seo',
                     'sitios-web-profesionales' => 'servicios.sitiosweb',
-                    'plataformas-web-personalizadas'=>'servicios.plataformasweb',
-                    'soluciones-web-para-restaurantes' => 'servicios.restaurantes',
+                    'plataformas-web-especializadas'=>'servicios.plataformasweb',
+                    'soluciones-web-restaurantes' => 'servicios.restaurantes',
                     default => 'home',
                 };
             @endphp

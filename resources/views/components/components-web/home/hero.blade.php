@@ -15,19 +15,18 @@
     <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-brand/25 blur-[130px] rounded-full animate-pulse-slow"></div>
     <div class="max-w-7xl mx-auto text-center relative z-10">
         <span class="inline-block py-1 px-3 border border-brand/30 text-brand text-[10px] font-bold tracking-[0.3em] uppercase rounded-full mb-8">
-            Soluciones web para negocios
+            Soluciones web para negocios en León, Guanajuato
         </span>
-        <h1 class="text-6xl md:text-8xl font-black mb-8 italic tracking-tighter leading-none text-white uppercase">
-           <span class="text-brand"> soluciones web </span> <br> para hacer crecer tu negocio.
+        <h1 class="text-4xl md:text-6xl font-black mb-8 italic tracking-tighter leading-none text-white uppercase">
+           <span class="text-brand text-6xl md:text-8xl">Desarrollamos soluciones web </span> <br> para atraer clientes y mejorar la operación de tu negocio.
         </h1>
 
         <p class="text-white/90 max-w-2xl mx-auto text-lg md:text-xl font-light drop-shadow-md">
-            Creamos <span class="text-brand font-semibold">soluciones web</span>
-            que ayudan a los <span class="text-brand font-semibold">negocios</span> a tener
-            <span class="text-brand font-semibold">presencia</span>, generar
-            <span class="text-brand font-semibold">oportunidades</span>, medir
-            <span class="text-brand font-semibold">resultados</span> y, cuando lo necesitan,
-            mejorar su <span class="text-brand font-semibold">operación</span>.
+            Creamos <span class="text-brand font-semibold">sitios web profesionales,</span>
+            trabajamos el <span class="text-brand font-semibold"> SEO local</span> y desarrollamos
+            <span class="text-brand font-semibold">plataformas web a medida</span>, según las
+            <span class="text-brand font-semibold">necesidades</span> de cada
+            <span class="text-brand font-semibold">negocio</span>.
         </p>
 
         {{-- CTAs --}}
@@ -63,7 +62,7 @@
             {{-- CTA Secundario --}}
 
             <a
-                href="#contacto"
+                href="{{ route('contacto')}}"
                 class="group relative inline-flex items-center justify-center gap-3 overflow-hidden rounded-xl bg-brand px-8 py-4 text-sm font-bold uppercase tracking-widest text-gray-950 transition-all duration-300 hover:scale-[1.03] hover:shadow-lg hover:shadow-brand/20 active:scale-95"
                 aria-label="Cuéntanos qué necesitas para tu proyecto web"
             >
@@ -93,7 +92,8 @@
             </a>
 
         </div>
-{{-- CTAs end --}}
+        {{-- CTAs end --}}
 
     </div>
+
 </section>

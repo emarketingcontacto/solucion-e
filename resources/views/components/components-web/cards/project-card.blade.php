@@ -17,7 +17,7 @@
             El reto
         </h4>
 
-        <div class="text-gray-200 font-light leading-relaxed line-clamp-3">
+        <div class="text-gray-200 font-light leading-relaxed">
             {{ $proyecto->sinopsis_reto }}
         </div>
 
@@ -26,7 +26,7 @@
             La solución
         </h4>
 
-        <div class="text-gray-400 text-sm font-light leading-snug italic border-l border-brand/30 pl-3 text-pretty line-clamp-4">
+        <div class="text-gray-400 text-sm font-light leading-snug italic border-l border-brand/30 pl-3 text-pretty">
             {{ $proyecto->sinopsis_solucion}}
         </div>
 
@@ -35,7 +35,7 @@
             El resultado
         </h4>
 
-        <div class="text-gray-200 font-light leading-relaxed line-clamp-3">
+        <div class="text-gray-200 font-light leading-relaxed">
             {{ $proyecto->sinopsis_resultado }}
         </div>
 

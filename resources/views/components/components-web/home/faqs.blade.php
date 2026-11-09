@@ -35,9 +35,10 @@
                 </summary>
 
                 <p class="mt-4 text-gray-400 leading-relaxed">
-                    No necesitas saberlo de antemano. Primero analizamos qué quieres mejorar o resolver y,
-                    a partir de ahí, identificamos si necesitas fortalecer tu presencia local, desarrollar
-                    un sitio web o implementar una herramienta para algún proceso de tu negocio.
+                   No necesitas saberlo de antemano. Primero analizamos qué quieres mejorar o resolver y revisamos tu
+                   presencia en línea y tus procesos. Con base en eso, identificamos si te conviene ayudar a que más
+                   personas de tu zona encuentren tu negocio en Google, crear o mejorar un sitio web, o implementar
+                   una herramienta para algún proceso de tu negocio.
                 </p>
             </details>
 
@@ -63,9 +64,8 @@
                 </summary>
 
                 <p class="mt-4 text-gray-400 leading-relaxed">
-                    No. Podemos trabajar con negocios que comienzan desde cero o que ya cuentan con un
-                    sitio web, Google Business Profile u otras herramientas. Primero revisamos lo que ya
-                    tienes y determinamos qué realmente necesitas mejorar o desarrollar.
+                   No. Podemos trabajar con negocios que comienzan desde cero o que ya tienen un sitio web, un Perfil
+                   de Negocio en Google u otras herramientas. Primero revisamos lo que ya tienes y definimos qué conviene mejorar o desarrollar.
                 </p>
             </details>
 
@@ -91,10 +91,10 @@
                 </summary>
 
                 <p class="mt-4 text-gray-400 leading-relaxed">
-                    Una página por sí sola no garantiza clientes. Para generar oportunidades necesita
-                    responder a lo que buscan tus clientes, poder ser encontrada y facilitar una acción
-                    como llamar, enviar un mensaje o solicitar información. Por eso integramos estrategia,
-                    SEO y medición cuando el proyecto lo requiere.
+                    Una página web puede ayudarte a atraer clientes, pero por sí sola no los garantiza.
+                    Para generar oportunidades, debe responder a lo que buscan tus clientes, facilitar
+                    que encuentren tu negocio en los buscadores y ofrecer formas claras de contactarte, como llamar por teléfono,
+                    enviar un mensaje o solicitar información. Según el proyecto, también definimos cómo medir sus resultados.
                 </p>
             </details>
 
@@ -120,9 +120,9 @@
                 </summary>
 
                 <p class="mt-4 text-gray-400 leading-relaxed">
-                    No. Trabajamos con SEO Local, sitios web profesionales y plataformas web personalizadas,
-                    además de soluciones especializadas para restaurantes. La solución depende del problema
-                    que necesite resolver cada negocio.
+                    No. También ayudamos a que más personas de tu zona encuentren tu negocio en los buscadores, desarrollamos plataformas web
+                     personalizadas y creamos soluciones web para restaurantes. Te sugerimos la opción que mejor se ajuste a lo que tu negocio
+                      necesita resolver.
                 </p>
             </details>
 
@@ -148,9 +148,9 @@
                 </summary>
 
                 <p class="mt-4 text-gray-400 leading-relaxed">
-                    Sí. Buscamos resolver primero las necesidades actuales del negocio y permitir que la
-                    solución evolucione cuando aparecen nuevas necesidades, sin incorporar desde el principio
-                    herramientas que todavía no necesita.
+                    Sí. Empezamos por resolver lo que tu negocio necesita hoy. Más adelante, si surgen nuevas necesidades, podemos
+                    ampliar la solución con herramientas o funcionalidades adecuadas. Así evitas incorporar desde el inicio cosas que
+                    todavía no necesitas.
                 </p>
             </details>
 
@@ -176,10 +176,9 @@
                 </summary>
 
                 <p class="mt-4 text-gray-400 leading-relaxed">
-                    Definimos qué queremos conseguir y utilizamos las herramientas de medición adecuadas
-                    para evaluar su funcionamiento. Dependiendo del proyecto podemos medir visibilidad,
-                    tráfico, contactos, acciones de los usuarios u otros indicadores relacionados con
-                    el objetivo.
+                    Antes de empezar, acordamos qué queremos lograr y qué datos nos ayudarán a evaluarlo. Según el proyecto,
+                    podemos revisar cuántas personas encuentran tu negocio, las visitas que recibe el sitio, los contactos que
+                    llegan o el uso de una herramienta. Así vemos qué funciona y qué conviene mejorar.
                 </p>
             </details>
 
